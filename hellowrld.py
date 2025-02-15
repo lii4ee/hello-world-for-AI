@@ -21,3 +21,6 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
 print(f"Predictions: {y_pred}")
+
+# Mean Squared Error: 2.040816326530613
+# Predictions: [5.42857143]
